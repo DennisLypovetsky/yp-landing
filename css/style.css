@@ -132,17 +132,7 @@ body {
 	/*justify-content: space-around;*/
 }
 .scroll {
-/*	width: 70px;
-	height: 150px;*/
 	text-transform: uppercase;
-	/*display: flex;*/
-	/*align-self: flex-end; auto | flex-start | flex-end | center | baseline | stretch*/
-	/*margin: auto; */
-	/*padding-top: 60%;*/
-	 /*border: 1px solid white; */
-	/*align-items: flex-end; */
-	/*justify-content: space-around; */
-	/*flex-flow: column;*/
 }
 .scroll p {
 	color: white;
@@ -186,9 +176,7 @@ body {
 	border: 15px solid #fff;
 	border-top: none;
 	display: flex;
-	/*margin-right: 155px;*/
 	align-self: center;
-	/*background-color: rgba(59, 88, 154, 0);*/
 }
 .block2 h1 {
 	width: 347px;
@@ -218,10 +206,7 @@ body {
 	font-family: 'Cheque', serif;
 	font-size: 150px;
 	font-weight: 900;
-	/*line-height: 313px;*/
 	text-transform: uppercase;
-	/*align-self: center;*/
-	/*padding-left: 26%;*/
 }
 #about-bottom {
 	display: flex;
@@ -335,12 +320,12 @@ body {
 	border-color: #c6c6c6;
 }
 .button-play p {
-    display: table-cell;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    vertical-align: middle;
-    padding-left: 5px;
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 5px;
 }
 .button-play a {
 	text-decoration: none;
@@ -358,4 +343,160 @@ body {
 	border: 15px solid black;
 	border-bottom: none;
 	align-self: center;
+}
+
+/* PAGE 4 */
+
+.gallery {
+height: 1300px;
+}
+
+.gallery-top {
+	display: flex;
+	flex-flow: column;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.block4 {
+	width: 35%;
+	height: 250px;
+	border: 15px solid black;
+	border-top: none;
+	/*display: flex;*/
+	position: relative;
+}
+.block4 h1 {
+	/*width: 347px;*/
+	/*height: 73px;*/
+	top: 170px;
+	left: 180px;
+	color: black;	
+	font-family: 'Cheque', serif;
+	font-size: 50px;
+	font-weight: 900;
+	/*line-height: 90px;*/
+	text-transform: uppercase;
+	/*align-self: flex-end;*/
+	/*margin: 15px;*/
+	position: absolute;
+}
+#box {
+	width: 200px; /* 491 */
+	height: auto; /* 356 */
+	position: absolute;
+	top: 125px;
+	left: -100px;
+}
+#shadow {
+	width: 235px; /* 491 */
+	height: auto; /* 356 */
+	position: absolute;
+	top: 110px;
+	left: -94px;
+	z-index: -1;
+}
+#two {
+	width: 150px; /*282px;*/
+	height: 100px; /*177px;*/
+	/*position: absolute;*/
+	top: 125px;
+	left: 475px;
+	color: black;
+	font-family: 'Cheque', serif;
+	font-size: 150px;
+	font-weight: 900;
+	text-transform: uppercase;
+	position: absolute;
+}
+
+#pen1 {
+	position: absolute;
+	height: 70px;
+	top: 274px;
+	left: -101px;
+}
+#pen2 {
+	position: absolute;
+	height: 46px;
+	top: 310px;
+	left: -75px;
+}
+.gallery-bottom {
+	position: relative;
+}
+#sh-10 {
+	position: absolute;
+	height: 30px;
+	top: 151px;
+	left: 320px;
+}
+#ballet {
+	position: absolute;
+	height: 200px;
+	top: 180px;
+	right: 320px;	
+}
+#s-ball {
+	top: 190px;
+	right: 625px;	
+}
+#landscape {
+	position: absolute;
+	height: 275px;
+	top: 250px;
+	left: 240px;
+}
+#s-land {
+	top: 270px;
+	left: 440px;
+}
+#still {
+	position: absolute;
+	height: 250px;
+	top: 410px;
+	left: 500px;
+}
+#s-stil {
+	top: 630px;
+	left: 465px;
+}
+#sh-11 {
+	position: absolute;
+	height: 13px;
+	top: 450px;
+	right: 392px;	
+}
+#sh-12 {
+	position: absolute;
+	height: 80px;
+	top: 600px;
+	left: 374px;
+}
+#nude {
+	position: absolute;
+	height: 300px;
+	top: 550px;
+	right: 351px;	
+}
+#s-nude {
+	top: 680px;
+	right: 520px;
+}
+#port {
+	position: absolute;
+	height: 200px;
+	top: 742px;
+	left: 390px;	
+}
+#s-port {
+	top: 752px;
+	left: 359px;	
+}
+.pic-name {
+	color: #222222;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	/*line-height: 25px;*/
+	position: absolute;
 }
